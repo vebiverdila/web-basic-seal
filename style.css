@@ -23,15 +23,21 @@
 }
 
 body {
-    background-color: rgb(181, 192, 223);
+    background-color: #e88f2a;
   }
   
   h1 {
-    color: rgb(231, 15, 98);
+    color: #2B2825;;
     text-align: ;
   }
 
   h2 {
-    color: rgb(231, 15, 98);
+    color: #2B2825;
     text-align: ;
+  }
+  contact {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5));
+    background-size: cover;
+    color: #2B2825;
+
   }
