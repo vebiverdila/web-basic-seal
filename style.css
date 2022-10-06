@@ -35,9 +35,34 @@ body {
     color: #2B2825;
     text-align: ;
   }
-  contact {
+.contact {
     background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5));
     background-size: cover;
     color: #2B2825;
 
   }
+
+/* default(smartphone) */
+header > img {
+  border-radius: 60%;
+  width: 200px;
+
+}
+
+/* tablet*/
+
+@media (min-width: 576px){
+  header > img {
+
+  }
+}
+
+/* pc*/
+
+@media (min-width: 992px){
+  header > img {
+
+  }
+}
+
+
