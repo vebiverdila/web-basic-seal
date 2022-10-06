@@ -23,16 +23,51 @@
 }
 
 body {
-    background-color: #e88f2a;
-  }
+  background-color: #e88f2a;
+}
   
-  h1 {
-    color: #2B2825;;
-    text-align: ;
+h1 {
+  color: #2B2825;;
+  text-align: ;
+}
+
+h2 {
+  color: #2B2825;
+  text-align: ;
+}
+.h1 {
+  color: #2B2825;
+  text-align: center;
+
+}
+.contact {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5));
+    background-size: cover;
+    color: #2B2825;
+
   }
 
-  h2 {
-    color: #2B2825;
-    text-align: ;
+/* default(smartphone) */
+.hero > img {
+  border-radius: 60%;
+  width: 100px;
+
+}
+
+/* tablet*/
+
+@media (min-width: 576px){
+  .hero > img {
+    width: 60px;
+
   }
-  
+}
+
+/* pc*/
+
+@media (min-width: 992px){
+  .hero > img {
+
+  }
+}
+
